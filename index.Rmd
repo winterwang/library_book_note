@@ -1,7 +1,7 @@
 --- 
 title: "我的个人笔记本"
 author: "Chaochen Wang | 王超辰"
-date: "`r Sys.Date()`"
+date: "Started from 2016-6-3"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -12,26 +12,7 @@ github-repo: winterwang/library_book_note
 description: "This is my test of using the bookdown package to write a book/personal library. 这是我个人的笔记本和日记本。"
 ---
 
-# Prerequisites　中文输入尝试
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
-
-。
-日本語テスト，ありがとう．
-
-For now, you have to install the development versions of **bookdown** from Github:
-
-```{r eval=FALSE}
-devtools::install_github("rstudio/bookdown")
-```
-
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
-
-To compile this example to PDF, you need to install XeLaTeX.
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+[颜色查询](http://www.114la.com/other/rgb.htm)
+[slidify 中 Reveal.js的实现](http://lchiffon.github.io/2015/05/08/RevealJS.html)
+[R语言中的黑魔法](http://static.xueqing.tv/slides/China-R-2015_P9_2_Rmagic_YanLinlin.html#(1))
